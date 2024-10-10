@@ -106,38 +106,185 @@ p {
     font-size: 17px;
     padding-top: 50px;
 }
-.icon-aqua, .icon-green, .icon-blue, .icon-orange {
+
+.icon-aqua,
+.icon-green,
+.icon-blue,
+.icon-orange {
     width: 20%;
     display: inline-block;
     padding: 10px;
 }
+
 .icon {
     padding: 30px;
     border-radius: 50%;
 }
-.icon-aqua i{
+
+.icon-aqua i {
     background-color: aqua;
     border: dashed rgb(125, 253, 253);
 }
-.icon-blue i{
+
+.icon-blue i {
     background-color: blue;
     border: dashed rgb(93, 93, 255);
 }
-.icon-green i{
+
+.icon-green i {
     background-color: green;
     border: dashed rgb(33, 165, 33);
 }
 
-.icon-orange i{
+.icon-orange i {
     background-color: orange;
     border: dashed rgb(255, 190, 70);
 }
+
 .information {
     color: black;
     padding-top: 30px;
     font-size: 15px;
 }
+
 .different {
     color: orange;
     padding: 20px;
+}
+
+/*About Section*/
+
+#about-us {
+    width: 100%;
+    height: 820px;
+    background-image: url(../img/professoressa.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+    width: 50%;
+    color: white;
+    padding: 80px 0 50px 600px;
+    text-align: center;
+}
+
+.dashed,
+.background {
+    width: 200px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.dashed {
+    border: dashed white;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.background {
+    color: orange;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.dashed:hover {
+    background-color: white;
+    color: orange;
+    border: solid orange;
+}
+
+.background:hover {
+    background-color: transparent;
+    color: white;
+    border: dashed orange;
+}
+
+.bottom {
+    width: 100%;
+    height: 0px;
+    padding-top: 400px;
+}
+.text {
+    padding: 0 0 0 300px;
+    margin-top: -300px;
+}
+.text p {
+    color: white;
+    text-align: center;
+    padding: 0 0 0 380px;
+    background-color: transparent;
+    width: 50%;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Teachers' Section */
+
+#teachers-section {
+    width: 100%;
+    height: 1000px;
+}
+.teacherlar1, .teacherlar2 {
+    display: flex;
+}
+.teacher {
+    width: 34%;
+    padding: 20px;
+    padding-left: 140px;
+}
+.introduction {
+    text-align: center;
+    padding: 80px 0 20px 0;
+}
+.text-top {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.image1, .image2, .image3, .image4 {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1 {
+    background-image: url(../img/how-to-be-teacher-malaysia-feature.png);
+}
+.image2 {
+    background-image: url(../img/Kang-English-Teacher-02_GALLERY_EVAN_0028.webp);
+}
+.image3 {
+    background-image: url(../img/Teacher-in-the-classroom.jpg);
+}
+.image4 {
+    background-image: url(../img/teacher-lin-clark.jpg);
+}
+.comment {
+    padding-top: 20px;
+}
+.green {
+    color: green;
+    padding-top: 8px;
+}
+.blue {
+    color: blue;
+    padding-top: 8px;
+}
+.purple {
+    color: purple;
+    padding-top: 8px;
+}
+.orange {
+    color: orange;
+    padding-top: 8px;
 }
